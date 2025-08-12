@@ -1,17 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.common-paragraph{
+.common-paragraph {
     font-size: 1.2rem;
     line-height: 1.3;
     color: #333;
-    margin: .8rem 0;
+    margin: 0.8rem 0;
 }
 
-
-#header{
+#header {
     width: 90%;
     margin: 1rem auto;
 }
@@ -21,18 +20,18 @@
     justify-content: space-between;
     padding: 1rem 0;
 }
-#header #headerLogo-navbar > a{
+#header #headerLogo-navbar > a {
     text-decoration: none;
     color: black;
     font-size: 1.5rem;
     font-weight: bold;
 }
-#header #headerLogo-navbar #navbar ul{
+#header #headerLogo-navbar #navbar ul {
     display: flex;
     gap: 1rem;
     list-style: none;
 }
-#header #headerLogo-navbar #navbar ul li a{
+#header #headerLogo-navbar #navbar ul li a {
     text-decoration: none;
     color: black;
     font-weight: 500;
@@ -40,33 +39,33 @@
     border: 1px solid #ddd;
 }
 
-#header #header-banner{
+#header #header-banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10rem;
     margin: 3rem 0;
 }
-#header #header-banner #banner-content{
+#header #header-banner #banner-content {
     max-width: 50%;
 }
-#header #header-banner #banner-content h1{
+#header #header-banner #banner-content h1 {
     font-size: 4.5rem;
     color: #333;
     margin-bottom: 1rem;
 }
-#header #header-banner #prebook-btn{
-    padding: .8rem 1.5rem;
+#header #header-banner #prebook-btn {
+    padding: 0.8rem 1.5rem;
     border: 1px solid transparent;
     border-radius: 20px;
     color: #ffffff;
-    background-color: #E02C6D;
+    background-color: #e02c6d;
     cursor: pointer;
 }
-#header #header-banner #banner-img{
+#header #header-banner #banner-img {
     position: relative;
 }
-#header #header-banner #banner-img .main-camera{
+#header #header-banner #banner-img .main-camera {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -75,7 +74,7 @@
     height: auto;
 }
 
-#header #header-sponsor{
+#header #header-sponsor {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -86,7 +85,6 @@
     border-bottom: 1px solid #3333333f;
     padding: 1.5rem 0;
 }
-
 
 #main {
     width: 90%;
@@ -104,22 +102,61 @@
 }
 
 #main #collection-container {
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }
-#main #collection-container .collection{
+#main #collection-container .collection {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    border: 1px solid rgba(0,0,0,0.08);
+    border: 1px solid rgba(0, 0, 0, 0.08);
     border-radius: 6px;
 }
-#main #collection-container .collection div{
+#main #collection-container .collection div {
     padding: 1rem;
 }
-#main #collection-container .collection img{
+#main #collection-container .collection img {
     width: 100%;
     height: auto;
     border-radius: 6px;
+}
+#main #collection-container .collection h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin: 0.4rem 0;
+}
+#main #collection-container .collection h3 {
+    font-size: 1.4rem;
+    color: #222;
+    margin: 0.2rem 0;
+}
+#main #collection-container .collection .rating {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1.2rem;
+    padding: 0;
+}
+#main #collection-container .collection .rating > div {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    /* color: #FB8200; */
+    color: #00b9c6;
+    padding: 0.4rem 0;
+    font-size: 1rem;
+}
+#main #collection-container .collection ul {
+    list-style: none;
+    color: #444;
+    font-weight: bold;
+}
+#main #popular-collection .see-more {
+    text-align: right;
+    margin: 2rem 0;
+}
+#main #popular-collection .see-more a {
+    text-decoration: none;
+    color: #e02c6d;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
