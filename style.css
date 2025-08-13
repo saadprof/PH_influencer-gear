@@ -9,6 +9,13 @@
     color: #333;
     margin: 0.8rem 0;
 }
+.common-btn {
+    padding: 0.8rem 1.5rem;
+    border: 1px solid transparent;
+    color: #ffffff;
+    background-color: #e02c6d;
+    cursor: pointer;
+}
 
 #header {
     width: 90%;
@@ -55,12 +62,7 @@
     margin-bottom: 1rem;
 }
 #header #header-banner #prebook-btn {
-    padding: 0.8rem 1.5rem;
-    border: 1px solid transparent;
     border-radius: 20px;
-    color: #ffffff;
-    background-color: #e02c6d;
-    cursor: pointer;
 }
 #header #header-banner #banner-img {
     position: relative;
@@ -159,4 +161,17 @@
     color: #e02c6d;
     font-weight: bold;
     font-size: 1.2rem;
+}
+
+#main #product-blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    margin: 4rem 0;
+}
+#main #product-blog #product-content h2{
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 1rem;
 }
