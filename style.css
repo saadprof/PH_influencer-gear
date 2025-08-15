@@ -220,6 +220,8 @@ Footer #footer-content #socials a {
         gap: 2.5rem;
         justify-content: center;
     }
+
+
     #header #header-banner {
         flex-direction: column;
         align-items: center;
@@ -234,5 +236,10 @@ Footer #footer-content #socials a {
     #header #header-banner #banner-img {
         width: 100%;
         max-width: 400px;
+    }
+
+
+    #main #collection-container {
+        grid-template-columns: 1fr;
     }
 }
