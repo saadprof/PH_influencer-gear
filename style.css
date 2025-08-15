@@ -225,4 +225,14 @@ Footer #footer-content #socials a {
         align-items: center;
         gap: 2rem;
     }
+    #header #header-banner #banner-content {
+        max-width: 100%;
+    }
+    #header #header-banner #banner-content h1 {
+        font-size: 3.5rem;
+    }
+    #header #header-banner #banner-img {
+        width: 100%;
+        max-width: 400px;
+    }
 }
