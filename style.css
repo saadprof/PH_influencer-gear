@@ -242,4 +242,11 @@ Footer #footer-content #socials a {
     #main #collection-container {
         grid-template-columns: 1fr;
     }
+
+
+    #main #product-blog {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
 }
